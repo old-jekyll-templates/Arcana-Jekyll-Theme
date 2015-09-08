@@ -1,3 +1,4 @@
 name: Arcana
 description: Arcana template for Jekyll
 paginate: 10
+baseurl: '/Arcana-Jekyll-Theme'

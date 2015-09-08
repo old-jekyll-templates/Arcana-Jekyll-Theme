@@ -19,12 +19,12 @@ layout: default
 									<div class="row">
 										<section class="12u">
 											<div class="box post">
-												<a href="#" class="image left"><img src="{{ post.featured }}" alt=""></a>
+												<a href="#" class="image left"><img src="{{ site.baseurl }}{{ post.featured }}" alt=""></a>
 												<div class="inner">
 													<h3>{{ post.title }}</h3>
 													{{ post.excerpt }}
 													<footer>
-														<a href="{{ site.prefix }}{{ post.url }}" class="button">Continue Reading</a>
+														<a href="{{ site.baseurl }}{{ post.url }}" class="button">Continue Reading</a>
 													</footer>
 												</div>
 											</div>
